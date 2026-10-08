@@ -9,3 +9,5 @@ for vente in ventes:
     ca_par_produit[vente["produit"]] = vente["prix"] * vente["quantite"]
 
 print(ca_par_produit)
+total = sum(ca_par_produit.values())
+print(f"Total : {total:.2f} euros")
