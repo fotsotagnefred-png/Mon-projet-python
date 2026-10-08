@@ -11,3 +11,5 @@ for vente in ventes:
 print(ca_par_produit)
 total = sum(ca_par_produit.values())
 print(f"Total : {total:.2f} euros")
+meilleur_produit = max(ca_par_produit, key=ca_par_produit.get)
+print(f"Meilleur produit : {meilleur_produit}")
