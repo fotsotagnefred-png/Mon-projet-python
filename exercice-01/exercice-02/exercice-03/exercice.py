@@ -8,3 +8,8 @@ for t in temperatures:
     if t > 15:
         jours_chauds += 1
 print(f"Jours > 15 °C : {jours_chauds}")
+fahrenheit = []
+for c in temperatures:
+    f = c * 9 / 5 + 32
+    fahrenheit.append(round(f, 1))
+print(f"Fahrenheit : {fahrenheit}")
