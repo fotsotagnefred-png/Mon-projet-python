@@ -25,3 +25,8 @@ if (annee % 4 == 0 and annee % 100 != 0) or annee % 400 == 0:
     print(f"{annee} : bissextile")
 else:
     print(f"{annee} : non bissextile")
+    for annee in [2024, 1900, 2000]:
+    if (annee % 4 == 0 and annee % 100 != 0) or annee % 400 == 0:
+        print(f"{annee} : bissextile")
+    else:
+        print(f"{annee} : non bissextile")
