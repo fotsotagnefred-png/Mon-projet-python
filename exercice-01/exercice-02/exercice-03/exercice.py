@@ -13,3 +13,5 @@ for c in temperatures:
     f = c * 9 / 5 + 32
     fahrenheit.append(round(f, 1))
 print(f"Fahrenheit : {fahrenheit}")
+for numero, t in enumerate(temperatures, start=1):
+    print(f"Jour {numero} : {t} °C")
