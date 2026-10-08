@@ -12,3 +12,6 @@ for texte in notes_brutes:
         notes_valides.append(note)
 
 print(f"Notes ignorées : {ignorees}")
+moy = moyenne(notes_valides)
+print(f"Moyenne : {moy:.2f}")
+print(f"Mention : {mention(moy)}")
