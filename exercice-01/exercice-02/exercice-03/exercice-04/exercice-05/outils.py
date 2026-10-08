@@ -3,3 +3,7 @@ def convertir_note(texte):
         return float(texte.replace(",", "."))
     except ValueError:
         return None
+    
+
+def moyenne(valeurs):
+    return sum(valeurs) / len(valeurs)
